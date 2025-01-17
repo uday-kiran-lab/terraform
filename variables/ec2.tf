@@ -1,7 +1,7 @@
 resource "aws_instance" "terraform" {
 
     ami = var.ami_id
-    instance_type = var.instane
+    instance_type = var.instance_type #left side varibale and right side variable name should not same
     vpc_security_group_ids = [aws_security_group.allow_ssh_terraform.id]
     tags = var.tags
     

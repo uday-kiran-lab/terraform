@@ -1,9 +1,17 @@
+# variable prefrences
+#1.command line
+#2.terrafrom.tfvars
+#3.environment variables
+#declaration TF_VAR_variable_name
+#4.defualt
+#5.prompt
+
 variable "ami_id" {
     type = string
     default = "ami-09c813fb71547fc4f"
   
 }
-variable "instane" {
+variable "instance_type" {
     type = string
     default = "t3.micro"
       
