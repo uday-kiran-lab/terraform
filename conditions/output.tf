@@ -1,3 +1,5 @@
+#instance output variable declaration
+
 output "publi_ip" {
     value = aws_instance.terraform.public_ip
     sensitive = false
