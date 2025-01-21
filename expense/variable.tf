@@ -12,3 +12,14 @@ variable "common_tags" {
     }
   
 }
+
+variable "zone_id" {
+    type = string
+    default = "Z00705833LE210VRN2VVE"
+  
+}
+variable "domain" {
+    type = string
+    default = "devopskiran.online"
+  
+}
